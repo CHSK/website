@@ -1,0 +1,59 @@
+#nav{
+    background-color: white;
+    text-align: right;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    border-bottom:2px solid blue;
+}
+#nav ul{
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+#nav li{
+    display: inline-block;
+}
+#nav a{
+    position: relative;
+    display: block;
+    color: lightblue;
+    text-decoration: none;
+    outline: 0;
+    margin-right:10px;
+}
+#home{
+    z-index: 1;
+    position:relative;
+    background-color:#CCFFFF;
+    height: 100vh;
+	width: 100vw;
+}
+#about{
+    z-index: 1;
+    position:relative;
+    background-color:#67D34C;
+    height: 100vh;
+}
+#team{
+	z-index: 1;
+	position: relative;
+	background-color: #29AAD1;
+	height: 100vh;
+}
+#contact{
+	z-index: 1;
+	position: relative;
+	background-color: #FEAD20;
+	height: 100vh;
+}
+
+IMG.logo {
+	position:absolute;
+	top: 50%;
+	margin-top: -10em;
+	display: block;
+	left:50%;
+	margin-left: -25em;
+	}
