@@ -37,13 +37,13 @@
 #about{
     z-index: 1;
     position:relative;
-    background-color:#67D34C;
+    background-color:#29AAD1;
     height: 100vh;
 }
 #team{
 	z-index: 1;
 	position: relative;
-	background-color: #29AAD1;
+	background-color: #67D34C;
 	height: 100vh;
 }
 #contact{
