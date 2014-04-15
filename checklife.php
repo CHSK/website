@@ -17,19 +17,20 @@
 			<IMG class="logo" src="logo.png" alt="logo" width="800" height="250">
         </div>
         <div id = "about">
+        	<IMG class="checkMark" src="checkmark.png" alt="checkmark">
+		<div id="textblock">
+			Feeling bored?</br>
+			Don't know what to do?</br>
+			Want to try something new?</br>
+			<p>CheckLife is here for you. Our app is designed to help people find activities in their local area.</br>
+			Which suits your preferences.</br>
+			Don't sit around the couch all day long being bored.</br>
+			Go try CheckLife now.</br></p>
+		</div>
         </div>
-		<div id = "team">
-		</div>
-		<div id = "contact">
-			<div id="fb-root"></div>
-			<script>(function(d, s, id) {
-				var js, fjs = d.getElementsByTagName(s)[0];
-				if (d.getElementById(id)) return;
-				js = d.createElement(s); js.id = id;
-				js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-				fjs.parentNode.insertBefore(js, fjs);
-			}(document, 'script', 'facebook-jssdk'));</script>
-			<div class="fb-like" data-href="http://checklife.binhoster.com" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
-		</div>
+	<div id = "team">
+	</div>
+	<div id = "contact">
+	</div>
     </body>
 </html>
