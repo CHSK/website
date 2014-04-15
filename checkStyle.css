@@ -1,3 +1,7 @@
+@font-face{
+	font-family: customFont;
+	src: url(OptimusPrincepsSemiBold.ttf);
+}
 #nav{
     background-color: white;
     text-align: right;
@@ -48,7 +52,23 @@
 	background-color: #FEAD20;
 	height: 100vh;
 }
+#textblock{
+	z-index: 3;
+	color: white;
+	font-family: customFont;
+	font-size: 20px;
+	position: absolute;
+	text-align: center;
+	top: 35%;
+	left: 50%;
+	margin-left: -23em
+}
 
+IMG.checkMark {
+	position: absolute;
+	top:10%;
+	left: 30%;
+}
 IMG.logo {
 	position:absolute;
 	top: 50%;
