@@ -5,6 +5,14 @@
         <title></title>
     </head>
     <body>
+    	<div id="fb-root"></div>
+    	<script>(function(d, s, id) {
+             var js, fjs = d.getElementsByTagName(s)[0];
+             if (d.getElementById(id)) return;
+             js = d.createElement(s); js.id = id;
+             js.src = "http://connect.facebook.net/en_US/all.js#xfbml=1";
+             fjs.parentNode.insertBefore(js, fjs);
+             }(document, 'script', 'facebook-jssdk'));</script>
         <nav id = "nav">
             <ul>
                 <li><a href = "#home">HOME</a></li>
@@ -61,17 +69,20 @@
                 </div>
                 <div id = "right">
                     <div id = "cell">
-                        <p>description</p>
+                        <p>I am Kyle Richesin, a Senior at Cal Poly Pomona and studying computer science. I am a huge fan of music and try to attend concerts as often as possible. I can play the drums and am in the process of learning the keyboard. In my down time I enjoy running and watching movies. My favorite movies series is The Lord of the Rings and my fastest mile time is 4:39</p>
                     </div>
                 </div>
             </div>
 	</div>
 	<div id = "contact">
-		<div id="title">Follow & Like us</div>
-			<div id="twitter">
-		    	<a href="https://twitter.com/CheckLifeApp" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @CheckLifeApp</a>
-				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-			</div>
+		<div id="title">Follow &amp; Like us</div>
+		<div id="twitter">
+		    <a href="https://twitter.com/CheckLifeApp" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @CheckLifeApp</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		</div>
+		<div id = "facebook">
+                	<div class="fb-like" data-href="http://checklife.binhoster.com" data-width = "150" data-height = "50" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+            	</div>
 	</div>
     </body>
 </html>
