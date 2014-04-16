@@ -116,6 +116,19 @@
 	left: 50%;
 	margin-left: -23em
 }
+#title{
+	font-size: 60px;
+	color: #29AAD1;
+	position: absolute;
+	text-align: center;
+	left: 37%;
+	top: 10%;
+}
+#twitter{
+	position: absolute;
+	top: 30%;
+	left: 30%;
+}
 
 IMG.checkMark {
 	position: absolute;
