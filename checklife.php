@@ -29,6 +29,42 @@
 		</div>
         </div>
 	<div id = "team">
+		<div id = "split">
+                <div id = "left1">
+                </div>
+                <div id = "right">
+                    <div id = "cell">
+                        <p>description</p>
+                    </div>
+                </div>
+            </div>
+            <div id = "split">
+                <div id = "left2">
+                </div>
+                <div id = "right">
+                    <div id = "cell">
+                        <p>I am Christian Perez, an Android developer for CheckLife. I am a Computer Science major in Cal Poly Pomona. My interests are in mobile app development and game development. On my spare time I enjoy playing soccer on the pitch and in video games.</p>
+                    </div>
+                </div>
+            </div>
+            <div id = "split">
+                <div id = "left3">
+                </div>
+                <div id = "right">
+                    <div id = "cell">
+                        <p>My name is Hao Dang. I am one of the app developer of CheckLife. I am currently attending Cal Poly Pomona as a Computer Science major. I enjoy playing video games and playing badminton with my friends.</p>
+                    </div>
+                </div>
+            </div>
+            <div id = "split">
+                <div id = "left4">
+                </div>
+                <div id = "right">
+                    <div id = "cell">
+                        <p>description</p>
+                    </div>
+                </div>
+            </div>
 	</div>
 	<div id = "contact">
 	</div>
