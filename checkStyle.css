@@ -46,6 +46,59 @@
 	background-color: #67D34C;
 	height: 100vh;
 }
+#split{
+    float: left;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+}
+
+#left1{
+    float: left;
+    width: 40%;
+    height: 100%;
+    background: url(IMG_0025.jpg) no-repeat center center;
+}
+
+#left2{
+    float: left;
+    width: 40%;
+    height: 100%;
+    background: url(IMG_0025.jpg) no-repeat center center;
+}
+
+#left3{
+    float: left;
+    width: 40%;
+    height: 100%;
+    background: url(IMG_0025.jpg) no-repeat center center;
+}
+
+#left4{
+    float: left;
+    width: 40%;
+    height: 100%;
+    background: url(IMG_0025.jpg) no-repeat center center;
+}
+
+#right{
+    float: left;
+    width: 60%;
+    height: 100%;
+    display: table;
+    text-align: left;
+}
+
+#cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#cell p{
+    color: white;
+    font-family: "Comic Sans MS";
+}
+
 #contact{
 	z-index: 1;
 	position: relative;
